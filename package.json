@@ -1,0 +1,36 @@
+{
+  "name": "ml-optimizer-explorer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Interactive 3D visualization of 11 gradient-descent optimizers across 7 classic loss surfaces.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.112.0",
+    "@react-three/fiber": "8.17.7",
+    "clsx": "2.1.1",
+    "lucide-react": "0.441.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.5.2",
+    "three": "0.168.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.5",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@types/three": "0.168.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.12",
+    "typescript": "5.6.2",
+    "vite": "5.4.6",
+    "vite-plugin-singlefile": "2.0.2"
+  }
+}
